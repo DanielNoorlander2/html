@@ -1,0 +1,78 @@
+* {
+    box-sizing:border-box;
+}
+
+div#wrapper, footer {
+    margin:auto;
+    width:1000px;
+    background-color:white;
+    padding:20px;
+}
+
+body {
+    font-family:"Arial", "sans-serif";
+    background-color:white;
+    line-height:24px;
+}
+
+nav {
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+nav a {
+    margin-right:20px;
+}
+
+section.schoen, section.schoenen {
+    width:50%;
+    float:left;
+}
+
+section.schoenen {
+    text-align:right;
+}
+
+section.artikelen {
+
+}
+
+img.schoen {
+    width:450px;
+}
+
+img.visual {
+    width:450px;
+    margin-bottom:10px;
+}
+
+img.article {
+    margin-top:20px;
+    margin-bottom:20px;
+    width:303px;
+}
+
+article {
+    display:inline-block;
+    width:33%;
+    padding-right:10px;
+    vertical-align:top;
+}
+
+article:last-child {
+    padding-right:0px;
+}
+
+footer {
+    background-color:grey;
+    height:200px;
+}
+
+footer a {
+    color:white;
+}
+
+
+
+
+
